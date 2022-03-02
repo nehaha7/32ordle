@@ -1,0 +1,96 @@
+body 
+{
+    background-color: rgb(5, 5, 5);
+    margin: 75px;
+
+    font: normal 14px 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+
+    line-height: 1.6em;
+
+
+
+
+
+}
+
+.highlightme
+{
+    background-color: rgb(230, 0, 0);
+}
+
+h1
+{
+    font-size: 48px;
+    margin-bottom: 1px;
+}
+
+h2
+{
+    font-size: 36px;
+    margin-left: 50px;
+    margin-right: 0px;
+
+    margin-bottom: 15px;
+
+}
+
+button
+{
+    background-color: rgb(128,166,108);
+    
+    font: bold 24px 'Open Sans', sans-serif;
+    color: rgb(5, 5, 5);
+
+    border: none;
+    border-radius: 8px;
+    box-shadow: none;
+
+    padding: 0.7rem;
+
+    margin-bottom: 0.5em;
+    margin-left: 50px;
+
+    
+
+}
+
+input
+{
+    background-color: rgb(5, 5, 5);
+    border: none;
+    /* border-bottom: solid 4px white; */
+    box-shadow: none;
+
+    outline: none;
+
+    color: white;
+
+    padding: 0.7rem;
+    
+    display: inline;
+
+    width: 50%;
+    height: fit-content;
+
+    font: bold 36px 'Open Sans', sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* placeholder settings for input box */
+::placeholder
+{
+    color: white;
+    font: bold 36px 'Open Sans', sans-serif;
+}
+
+/* hiding annoying scroll thing that comes up when u hover */
+input::-webkit-outer-spin-button, 
+input::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0px;
+} 

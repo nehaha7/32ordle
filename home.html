@@ -2,15 +2,33 @@
 
 <html>
     <head> 
-        <title> 32ordle </title>
+        <title> homepage </title>
         <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1> testing testing </h1>
-        <p> this is a paragraph </p>
-
-        <button onclick="runCode()"> button </button>
+        <h1> xordle </h1>
+        <p> to nicole. please seek help <3 </p>
+        <h2> x = 
+            <input type="number" placeholder="?" id="x=" > 
+            <!-- this script prevents input box from accepting negatives or decimals -->
+            <script> 
+                var inputBox = document.getElementById('x=');
+                inputBox.onkeydown = function(e)
+                {
+                    /* doesnt accept anything but num keycodes */
+                    if (! (  (e.keyCode > 95 && e.keyCode < 106)
+                        || (e.keyCode > 47 && e.keyCode < 58) 
+                        || e.keyCode == 8))
+                        return false;
+                }
+            </script>
+        </h2>
+         
+        <!-- on click opens play.html-->
+        <button onclick="start()"> play </button>
     </body>
 
 </html>
+
